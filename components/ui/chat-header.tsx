@@ -45,11 +45,11 @@ const ChatHeader = ({
 		<div
 			className={cn('h-20', className)}
 			{...props}>
-			<div className='p-5 border-b flex items-center justify-between h-full'>
+			<div className='flex justify-between items-center p-5 h-full border-b'>
 				<div className=''>
 					<h1 className='text-xl font-bold'>Daily Chat</h1>
-					<div className='flex items-center gap-1'>
-						<div className='size-4 bg-green-500 rounded-full animate-pulse'></div>
+					<div className='flex gap-1 items-center'>
+						<div className='bg-green-500 rounded-full animate-pulse size-4'></div>
 						<h1 className='text-sm text-gray-400'>2 online</h1>
 					</div>
 				</div>

@@ -11,8 +11,8 @@ export default async function Home() {
 
 	return (
 		<>
-			<div className='max-w-3xl mx-auto md:py-10 h-screen'>
-				<div className='h-full border rounded-md flex flex-col'>
+			<div className='mx-auto max-w-3xl h-screen md:py-10'>
+				<div className='flex flex-col h-full rounded-md border'>
 					<ChatHeader user={data.user || undefined} />
 					<ChatMessages />
 					<ChatInput />
